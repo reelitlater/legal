@@ -90,6 +90,12 @@
         <li class="pill">various types of Data</li>
         <li class="pill">Data communicated while using the service</li>
         <li class="pill">User ID</li>
+        <li class="pill">first name</li>
+        <li class="pill">last name</li>
+        <li class="pill">picture</li>
+        <li class="pill">purchase history</li>
+        <li class="pill">crash data</li>
+        <li class="pill">advertising identifier</li>
     </ul>
   <p>Complete details on each type of Personal Data collected are provided in the dedicated sections of this privacy policy or by specific explanation texts displayed prior to the Data collection.<br />Personal Data may be freely provided by the User, or, in case of Usage Data, collected automatically when using this Application.<br />Unless specified otherwise, all Data requested by this Application is mandatory and failure to provide this Data may make it impossible for this Application to provide its services. In cases where this Application specifically states that some Data is not mandatory, Users are free not to communicate this Data without consequences to the availability or the functioning of the Service.<br />Users who are uncertain about which Personal Data is mandatory are welcome to contact the Owner.<br />Any use of Cookies – or of other tracking tools — by this Application or by the owners of third-party services used by this Application serves the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy.</p>
   <p>Users are responsible for any third-party Personal Data obtained, published or shared through this Application.</p>
@@ -117,6 +123,9 @@ Depending on the User's location, data transfers may involve transferring the Us
           <li>Managing contacts and sending messages</li>
           <li>Data transfer outside the EU</li>
           <li>User database management</li>
+          <li>Infrastructure monitoring</li>
+          <li>Content fetching and processing</li>
+          <li>Displaying content from external platforms</li>
           <li>Contacting the User</li>
       </ul>
   </section>
@@ -150,7 +159,9 @@ Depending on the User's location, data transfers may involve transferring the Us
 
 <p>Firebase Analytics may share Data with other tools provided by Firebase, such as Crash Reporting, Authentication, Remote Config or Notifications. The User may check this privacy policy to find a detailed explanation about the other tools used by the Owner.</p>
 
-<p>This Application uses identifiers for mobile devices and technologies similar to cookies to run the Firebase Analytics service.</p>
+<p>This Application uses identifiers for mobile devices and technologies similar to cookies to run the Firebase Analytics service.<br>
+Some usage events are also sent to Google Analytics from the Owner's servers (Google Analytics Measurement Protocol), using the User ID as the client identifier.<br>
+On iOS, this Application asks for permission through Apple's App Tracking Transparency framework before Firebase Analytics may use the device's advertising identifier (IDFA). If the User denies permission, the advertising identifier is not collected and this Application keeps working normally.</p>
 
 <p>Users may opt-out of certain Firebase features through applicable device settings, such as the device advertising settings for mobile phones or by following the instructions in other Firebase related sections of this privacy policy, if available.</p>
 
@@ -401,7 +412,102 @@ This results in Data flowing through these services, potentially causing the ret
                 </div>
             </div>
           </details>
-        <h3>Hosting and backend infrastructure</h3>
+                  <details class="legalDoc__accordion">
+
+            <summary>
+  <figure>
+    
+  </figure>
+  <div>
+    <h4>Apple App Store In-App Purchases</h4>
+    <div class="accordion__meta">
+        <p class="meta__company"><span class="sr-only">Company: </span>Apple Inc.</p>
+        <p class="meta__location"><span class="sr-only">Place of processing: </span>United States</p>
+        <p class="meta__keys"><span class="sr-only">Personal Data processed: </span> purchase history +1</p>
+    </div>
+  </div>
+</summary>
+
+
+            <div class="accordion__body">
+              <p>Subscriptions purchased on iOS are processed by Apple through the App Store. Apple handles the payment details; this Application only receives a transaction identifier and subscription status.</p>
+
+                <div class="body__details-box">
+                  <h5>Personal Data processed:</h5>
+                  <ul>
+                      <li>purchase history</li>
+                      <li>User ID</li>
+                  </ul>
+                  
+                    <h5>Service provided by:</h5>
+                    <ul>
+                          <li>
+                            Apple Inc. (United States)
+
+                              &ndash;
+                                <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">
+                                  Privacy Policy
+                                </a>
+                          </li>
+                    </ul>
+                  
+                      <h5>Category of Personal Information collected according to the CCPA</h5>
+                      <ul>
+                          <li>identifiers</li>
+                          <li>commercial information</li>
+                      </ul>
+                </div>
+            </div>
+          </details>
+
+          <details class="legalDoc__accordion">
+
+            <summary>
+  <figure>
+    
+  </figure>
+  <div>
+    <h4>Google Play In-App Purchases</h4>
+    <div class="accordion__meta">
+        <p class="meta__company"><span class="sr-only">Company: </span>Google LLC</p>
+        <p class="meta__location"><span class="sr-only">Place of processing: </span>United States</p>
+        <p class="meta__keys"><span class="sr-only">Personal Data processed: </span> purchase history +1</p>
+    </div>
+  </div>
+</summary>
+
+
+            <div class="accordion__body">
+              <p>Subscriptions purchased on Android are processed by Google through Google Play Billing. Google handles the payment details; this Application only receives a transaction identifier and subscription status.</p>
+
+                <div class="body__details-box">
+                  <h5>Personal Data processed:</h5>
+                  <ul>
+                      <li>purchase history</li>
+                      <li>User ID</li>
+                  </ul>
+                  
+                    <h5>Service provided by:</h5>
+                    <ul>
+                          <li>
+                            Google LLC (United States)
+
+                              &ndash;
+                                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+                                  Privacy Policy
+                                </a>
+                          </li>
+                    </ul>
+                  
+                      <h5>Category of Personal Information collected according to the CCPA</h5>
+                      <ul>
+                          <li>identifiers</li>
+                          <li>commercial information</li>
+                      </ul>
+                </div>
+            </div>
+          </details>
+<h3>Hosting and backend infrastructure</h3>
         <p><p>This type of service has the purpose of hosting Data and files that enable this Application to run and be distributed or to provide a ready-made infrastructure to run specific features or parts of this Application.</p>
 
 <p>Some services among those listed below, if any, may work through geographically distributed servers, making it difficult to determine the actual location where the Personal Data are stored.</p>
@@ -616,7 +722,54 @@ This results in Data flowing through these services, potentially causing the ret
 
             </div>
           </details>
-        <h3>Managing contacts and sending messages</h3>
+                  <details class="legalDoc__accordion">
+
+            <summary>
+  <figure>
+    
+  </figure>
+  <div>
+    <h4>Firebase Remote Config</h4>
+    <div class="accordion__meta">
+        <p class="meta__company"><span class="sr-only">Company: </span>Google LLC</p>
+        <p class="meta__location"><span class="sr-only">Place of processing: </span>United States</p>
+        <p class="meta__keys"><span class="sr-only">Personal Data processed: </span> device information +2</p>
+    </div>
+  </div>
+</summary>
+
+
+            <div class="accordion__body">
+              <p>Firebase Remote Config is a configuration service provided by Google LLC that allows the Owner to change the behavior and appearance of this Application without publishing an update. It uses a Firebase installation identifier and basic app and device information.</p>
+
+                <div class="body__details-box">
+                  <h5>Personal Data processed:</h5>
+                  <ul>
+                      <li>device information</li>
+                      <li>Usage Data</li>
+                      <li>various types of Data as specified in the privacy policy of the service</li>
+                  </ul>
+                  
+                    <h5>Service provided by:</h5>
+                    <ul>
+                          <li>
+                            Google LLC (United States)
+
+                              &ndash;
+                                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+                                  Privacy Policy
+                                </a>
+                          </li>
+                    </ul>
+                  
+                      <h5>Category of Personal Information collected according to the CCPA</h5>
+                      <ul>
+                          <li>internet or other electronic network activity information</li>
+                      </ul>
+                </div>
+            </div>
+          </details>
+<h3>Managing contacts and sending messages</h3>
         <p><p>This type of service makes it possible to manage a database of email contacts, phone contacts or any other contact information to communicate with the User.<br/>
 These services may also collect data concerning the date and time when the message was viewed by the User, as well as when the User interacted with it, such as by clicking on links included in the message.</p>
 </p>
@@ -770,7 +923,302 @@ These services may also collect data concerning the date and time when the messa
                 </div>
             </div>
           </details>
-        <h3>Registration and authentication</h3>
+                <h3>Content fetching and processing</h3>
+        <p><p>This Application turns links, articles and videos that Users submit into summaries. To do so, the submitted URL, and the text or transcript retrieved from it, is passed to the third-party services listed below and to the AI providers listed under Hosting and backend infrastructure.</p>
+</p>
+
+          <details class="legalDoc__accordion">
+
+            <summary>
+  <figure>
+    
+  </figure>
+  <div>
+    <h4>Jina AI Reader</h4>
+    <div class="accordion__meta">
+        <p class="meta__company"><span class="sr-only">Company: </span>Jina AI GmbH</p>
+        <p class="meta__location"><span class="sr-only">Place of processing: </span>Germany</p>
+        <p class="meta__keys"><span class="sr-only">Personal Data processed: </span> Data communicated while using the service +1</p>
+    </div>
+  </div>
+</summary>
+
+
+            <div class="accordion__body">
+              <p>Jina AI Reader is a web content extraction service provided by Jina AI GmbH. This Application sends the URL of an article a User has saved to Jina AI in order to retrieve its readable text.</p>
+
+                <div class="body__details-box">
+                  <h5>Personal Data processed:</h5>
+                  <ul>
+                      <li>Data communicated while using the service</li>
+                      <li>Usage Data</li>
+                  </ul>
+                  
+                    <h5>Service provided by:</h5>
+                    <ul>
+                          <li>
+                            Jina AI GmbH (Germany)
+
+                              &ndash;
+                                <a href="https://jina.ai/legal/#privacy-policy" target="_blank" rel="noopener noreferrer">
+                                  Privacy Policy
+                                </a>
+                          </li>
+                    </ul>
+                  
+                      <h5>Category of Personal Information collected according to the CCPA</h5>
+                      <ul>
+                          <li>internet or other electronic network activity information</li>
+                      </ul>
+                </div>
+            </div>
+          </details>
+
+          <details class="legalDoc__accordion">
+
+            <summary>
+  <figure>
+    
+  </figure>
+  <div>
+    <h4>RapidAPI (YouTube transcript and metadata APIs)</h4>
+    <div class="accordion__meta">
+        <p class="meta__company"><span class="sr-only">Company: </span>RapidAPI (Nokia)</p>
+        <p class="meta__location"><span class="sr-only">Place of processing: </span>United States</p>
+        <p class="meta__keys"><span class="sr-only">Personal Data processed: </span> Data communicated while using the service +1</p>
+    </div>
+  </div>
+</summary>
+
+
+            <div class="accordion__body">
+              <p>RapidAPI is an API marketplace through which this Application accesses third-party services that retrieve subtitles, transcripts and metadata for YouTube videos. The identifier of a YouTube video a User has saved is sent to these services.</p>
+
+                <div class="body__details-box">
+                  <h5>Personal Data processed:</h5>
+                  <ul>
+                      <li>Data communicated while using the service</li>
+                      <li>Usage Data</li>
+                  </ul>
+                  
+                    <h5>Service provided by:</h5>
+                    <ul>
+                          <li>
+                            RapidAPI (Nokia) (United States)
+
+                              &ndash;
+                                <a href="https://rapidapi.com/privacy/" target="_blank" rel="noopener noreferrer">
+                                  Privacy Policy
+                                </a>
+                          </li>
+                    </ul>
+                  
+                      <h5>Category of Personal Information collected according to the CCPA</h5>
+                      <ul>
+                          <li>internet or other electronic network activity information</li>
+                      </ul>
+                </div>
+            </div>
+          </details>
+
+          <details class="legalDoc__accordion">
+
+            <summary>
+  <figure>
+    
+  </figure>
+  <div>
+    <h4>YouTube Data API</h4>
+    <div class="accordion__meta">
+        <p class="meta__company"><span class="sr-only">Company: </span>Google LLC</p>
+        <p class="meta__location"><span class="sr-only">Place of processing: </span>United States</p>
+        <p class="meta__keys"><span class="sr-only">Personal Data processed: </span> Data communicated while using the service +1</p>
+    </div>
+  </div>
+</summary>
+
+
+            <div class="accordion__body">
+              <p>The YouTube Data API is a service provided by Google LLC that this Application uses to look up channel and video information for YouTube feeds a User follows, when the public feed is unavailable.</p>
+
+                <div class="body__details-box">
+                  <h5>Personal Data processed:</h5>
+                  <ul>
+                      <li>Data communicated while using the service</li>
+                      <li>Usage Data</li>
+                  </ul>
+                  
+                    <h5>Service provided by:</h5>
+                    <ul>
+                          <li>
+                            Google LLC (United States)
+
+                              &ndash;
+                                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+                                  Privacy Policy
+                                </a>
+                          </li>
+                    </ul>
+                  
+                      <h5>Category of Personal Information collected according to the CCPA</h5>
+                      <ul>
+                          <li>internet or other electronic network activity information</li>
+                      </ul>
+                </div>
+            </div>
+          </details>
+        <h3>Infrastructure monitoring</h3>
+        <p><p>These services allow this Application to monitor the use and behavior of its components so its performance, operation, maintenance and troubleshooting can be improved.</p>
+</p>
+
+          <details class="legalDoc__accordion">
+
+            <summary>
+  <figure>
+    
+  </figure>
+  <div>
+    <h4>Firebase Crashlytics</h4>
+    <div class="accordion__meta">
+        <p class="meta__company"><span class="sr-only">Company: </span>Google LLC</p>
+        <p class="meta__location"><span class="sr-only">Place of processing: </span>United States</p>
+        <p class="meta__keys"><span class="sr-only">Personal Data processed: </span> device information +3</p>
+    </div>
+  </div>
+</summary>
+
+
+            <div class="accordion__body">
+              <p>Firebase Crashlytics is a crash reporting service provided by Google LLC. When this Application crashes, it automatically sends a report containing the crash stack trace, the device model, operating system version, app version and a Firebase installation identifier. The report does not include the content of the User's saved articles or videos.</p>
+
+                <div class="body__details-box">
+                  <h5>Personal Data processed:</h5>
+                  <ul>
+                      <li>device information</li>
+                      <li>crash data</li>
+                      <li>Usage Data</li>
+                      <li>various types of Data as specified in the privacy policy of the service</li>
+                  </ul>
+                  
+                    <h5>Service provided by:</h5>
+                    <ul>
+                          <li>
+                            Google LLC (United States)
+
+                              &ndash;
+                                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+                                  Privacy Policy
+                                </a>
+                          </li>
+                    </ul>
+                  
+                      <h5>Category of Personal Information collected according to the CCPA</h5>
+                      <ul>
+                          <li>internet or other electronic network activity information</li>
+                      </ul>
+                </div>
+            </div>
+          </details>
+
+          <details class="legalDoc__accordion">
+
+            <summary>
+  <figure>
+    
+  </figure>
+  <div>
+    <h4>Slack (internal alerts)</h4>
+    <div class="accordion__meta">
+        <p class="meta__company"><span class="sr-only">Company: </span>Salesforce, Inc.</p>
+        <p class="meta__location"><span class="sr-only">Place of processing: </span>United States</p>
+        <p class="meta__keys"><span class="sr-only">Personal Data processed: </span> User ID +2</p>
+    </div>
+  </div>
+</summary>
+
+
+            <div class="accordion__body">
+              <p>The Owner uses Slack, a team messaging service provided by Salesforce, Inc., to receive automated alerts about errors and content-processing failures. Such alerts may contain the User ID, the URL of the content being processed, error messages and the first few characters of a content title, and are visible only to the Owner's team.</p>
+
+                <div class="body__details-box">
+                  <h5>Personal Data processed:</h5>
+                  <ul>
+                      <li>User ID</li>
+                      <li>Data communicated while using the service</li>
+                      <li>Usage Data</li>
+                  </ul>
+                  
+                    <h5>Service provided by:</h5>
+                    <ul>
+                          <li>
+                            Salesforce, Inc. (United States)
+
+                              &ndash;
+                                <a href="https://slack.com/trust/privacy/privacy-policy" target="_blank" rel="noopener noreferrer">
+                                  Privacy Policy
+                                </a>
+                          </li>
+                    </ul>
+                  
+                      <h5>Category of Personal Information collected according to the CCPA</h5>
+                      <ul>
+                          <li>identifiers</li>
+                          <li>internet or other electronic network activity information</li>
+                      </ul>
+                </div>
+            </div>
+          </details>
+        <h3>Displaying content from external platforms</h3>
+        <p><p>This type of service allows Users to view content hosted on external platforms directly from within this Application and interact with it. This type of service might still collect web traffic data for the pages where the service is installed, even when Users do not use it.</p>
+</p>
+
+          <details class="legalDoc__accordion">
+
+            <summary>
+  <figure>
+    
+  </figure>
+  <div>
+    <h4>YouTube video widget</h4>
+    <div class="accordion__meta">
+        <p class="meta__company"><span class="sr-only">Company: </span>Google LLC</p>
+        <p class="meta__location"><span class="sr-only">Place of processing: </span>United States</p>
+        <p class="meta__keys"><span class="sr-only">Personal Data processed: </span> Trackers +1</p>
+    </div>
+  </div>
+</summary>
+
+
+            <div class="accordion__body">
+              <p>YouTube is a video content visualization service provided by Google LLC that allows this Application to play YouTube videos inside the app. While a video is playing, Google may collect Trackers, the User's IP address and viewing activity in accordance with its own privacy policy.</p>
+
+                <div class="body__details-box">
+                  <h5>Personal Data processed:</h5>
+                  <ul>
+                      <li>Trackers</li>
+                      <li>Usage Data</li>
+                  </ul>
+                  
+                    <h5>Service provided by:</h5>
+                    <ul>
+                          <li>
+                            Google LLC (United States)
+
+                              &ndash;
+                                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+                                  Privacy Policy
+                                </a>
+                          </li>
+                    </ul>
+                  
+                      <h5>Category of Personal Information collected according to the CCPA</h5>
+                      <ul>
+                          <li>internet or other electronic network activity information</li>
+                      </ul>
+                </div>
+            </div>
+          </details>
+<h3>Registration and authentication</h3>
         <p><p>By registering or authenticating, Users allow this Application to identify them and give them access to dedicated services.<br/>
 Depending on what is described below, third parties may provide registration and authentication services. In this case, this Application will be able to access some Data, stored by these third-party services, for registration or identification purposes. <br/>
 Some of the services listed below may also collect Personal Data for targeting and profiling purposes; to find out more, please refer to the description of each service.</p>
@@ -877,7 +1325,56 @@ To simplify the registration and authentication process, Supabase Auth can make 
                 </div>
             </div>
           </details>
-        <h3>User database management</h3>
+                  <details class="legalDoc__accordion">
+
+            <summary>
+  <figure>
+    
+  </figure>
+  <div>
+    <h4>Google Sign-In</h4>
+    <div class="accordion__meta">
+        <p class="meta__company"><span class="sr-only">Company: </span>Google LLC</p>
+        <p class="meta__location"><span class="sr-only">Place of processing: </span>United States</p>
+        <p class="meta__keys"><span class="sr-only">Personal Data processed: </span> email address +4</p>
+    </div>
+  </div>
+</summary>
+
+
+            <div class="accordion__body">
+              <p>Google Sign-In is a registration and authentication service provided by Google LLC and is connected to the Google network. When Users sign in with their Google account, this Application receives the email address, name and profile picture associated with that account in order to create and identify the User's account.</p>
+
+                <div class="body__details-box">
+                  <h5>Personal Data processed:</h5>
+                  <ul>
+                      <li>email address</li>
+                      <li>first name</li>
+                      <li>last name</li>
+                      <li>picture</li>
+                      <li>User ID</li>
+                  </ul>
+                  
+                    <h5>Service provided by:</h5>
+                    <ul>
+                          <li>
+                            Google LLC (United States)
+
+                              &ndash;
+                                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+                                  Privacy Policy
+                                </a>
+                          </li>
+                    </ul>
+                  
+                      <h5>Category of Personal Information collected according to the CCPA</h5>
+                      <ul>
+                          <li>identifiers</li>
+                      </ul>
+                </div>
+            </div>
+          </details>
+<h3>User database management</h3>
         <p><p>This type of service allows the Owner to build user profiles by starting from an email address, a personal name, or other information that the User provides to this Application, as well as to track User activities through analytics features. This Personal Data may also be matched with publicly available information about the User (such as social networks' profiles) and used to build private profiles that the Owner can display and use for improving this Application.<br/>
 Some of these services may also enable the sending of timed messages to the User, such as emails based on specific actions performed on this Application.</p>
 </p>
@@ -996,6 +1493,9 @@ The Personal Data collected to complete the payment may include the credit card,
       <h3>User identification via a universally unique identifier (UUID)</h3>
 
       <p>This Application may track Users by storing a so-called universally unique identifier (or short UUID) for analytics purposes or for storing Users' preferences. This identifier is generated upon installation of this Application, it persists between Application launches and updates, but it is lost when the User deletes the Application. A reinstall generates a new UUID.</p>
+      <h3>Advertising identifier</h3>
+      <p>On iOS, this Application may ask the User for permission to access the device's advertising identifier (IDFA). The identifier is used only by Firebase Analytics for measurement, not to show advertising. Users can deny or withdraw this permission at any time in the device settings (Privacy &amp; Security › Tracking).</p>
+
 
       
 
